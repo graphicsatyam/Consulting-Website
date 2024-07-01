@@ -10002,8 +10002,33 @@ textarea.form-control {
     .get img {
       width: 100%;
     }
+    
   }
 
   .width{
     width:-webkit-fill-available;
+  }
+
+  @media (max-width: 450px) {
+    .owl-carousel.home-slider .slider-item {
+      height: 300px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+      font-size: 21px;
+  }
+}
+
+
+  @media (max-width: 450px) {
+    .owl-carousel.home-slider .slider-item {
+      height: 300px;
+    }
+  }
+
+  @media (min-width: 450px) and (max-width: 610px) {
+
+    .owl-carousel.home-slider .slider-item {
+      height: 330px;
+    }
   }
