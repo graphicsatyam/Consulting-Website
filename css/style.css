@@ -486,6 +486,7 @@ pre {
   margin-left: 0; }
   .no-gutters > .col,
   .no-gutters > [class*="col-"] {
+    top: 10px;
     padding-right: 0;
     padding-left: 0; }
 
@@ -8486,7 +8487,7 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 600px;
+    /* height: 600px; */
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
@@ -9985,6 +9986,13 @@ textarea.form-control {
 
     
   @media (max-width: 768px) {
+
+    .no-gutters > [class*="col-"] {
+      top: -90px;
+      padding-right: 0;
+      padding-left: 0; }
+
+
     .new {
     width: 100%;
     }
@@ -10032,3 +10040,10 @@ textarea.form-control {
       height: 330px;
     }
   }
+
+  @media (min-width: 450px) and (max-width: 650px) {
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+      font-size: 20px;
+  }
+
